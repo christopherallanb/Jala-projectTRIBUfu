@@ -22,17 +22,18 @@
                     <circle cx="7" cy="17" r="2" />
                     <path d="M9 17h6" />
                     <circle cx="17" cy="17" r="2" />
-                </svg>
+                 </svg>
                 <h1 class="header-title">CarroFácil</h1>
             </div>
 
             <!-- Botões de navegação -->
             <nav class="main-nav">
-                <a href="/alugar" class="nav-button primary">Alugar um carro</a>
-                <a href="/empresas" class="nav-button">Para empresas</a>
-                <a href="/solucoes" class="nav-button">Soluções</a>
-                <a href="/unidas" class="nav-button">A Unidas</a>
-                <a href="/atendimento" class="nav-button">Atendimento</a>
+                <a href="{{ route('car.details') }}" class="nav-button primary">Alugar um carro</a>
+                <a href="{{ route('for.companies') }}" class="nav-button">Para empresas</a>
+                <a href="{{ route('faq') }}" class="nav-button">Soluções</a>
+               <!-- <a href="{{ route('  ') }}" class="nav-button">A Unidas</a> -->
+                <a href="{{ route('contact') }}" class="nav-button">Atendimento</a>
+
             </nav>
         </div>
     </header>
