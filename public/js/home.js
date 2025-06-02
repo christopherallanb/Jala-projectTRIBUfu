@@ -8,13 +8,13 @@
                     alert(`Você reservou o ${carName}!`);
                 });
             });
-            
+
             const searchButton = document.querySelector('.w-full');
             searchButton.addEventListener('click', function() {
                 const location = document.getElementById('local').value;
                 const startDate = document.getElementById('data-inicio').value;
                 const endDate = document.getElementById('data-fim').value;
-                
+
                 if (!location || !startDate || !endDate) {
                     alert('Por favor, preencha todos os campos do formulário.');
                 } else {
