@@ -27,14 +27,14 @@
             </div>
 
             <!-- Botões de navegação -->
-            <nav class="main-nav">
+           <!--<nav class="main-nav">
                 <a href="{{ route('car.details') }}" class="nav-button primary">Alugar um carro</a>
                 <a href="{{ route('for.companies') }}" class="nav-button">Para empresas</a>
                 <a href="{{ route('faq') }}" class="nav-button">Soluções</a>
-               <!-- <a href="{{ route('  ') }}" class="nav-button">A Unidas</a> -->
-                <a href="{{ route('contact') }}" class="nav-button">Atendimento</a>
+                <a href="{{ route('  ') }}" class="nav-button">A Unidas</a> 
+                <a href="{{ route('contact') }}" class="nav-button">Atendimento</a> 
 
-            </nav>
+            </nav> -->
         </div>
     </header>
 
